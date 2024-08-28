@@ -2,13 +2,25 @@ function getColor(selection)
 {
 	switch(selection){
 		// Add more options here
+		case 'red':
+			return true;
+			break;
+		case 'green':
+			return true;
+			break;
+		case 'blue':
+			return true;
+			break;
+		case 'black':
+			return false;
+			break;
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
 	    break;               
 	}
 }
 
-let colorname = prompt('What color do you want?').trim();
+let colorname = prompt('What color do you want?').trim(); // nos elimina los espacios en blanco.
 let isAvailable = getColor(colorname);
 
 if(isAvailable)
