@@ -24,12 +24,10 @@ var person3 = {
     luckyNumbers: [1, 2, 3, 4],
     significantOther: null
 }
-
 var family = {
     lastName: "Doe",
     members: [person, person2, person3]   //Array of objects, don't forget to add Jimmy
 };
-
 
 function addAllFamilyLuckyNumbers(anArray) {
     let sumOfAllLuckyNumbers = 0; //sumOfAllLuckyNumbers is a number, the sum of all lucky numbers.
