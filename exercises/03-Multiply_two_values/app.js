@@ -1,3 +1,7 @@
-// Your code below:
-let variablesAreCool = 2345 * 7323;
+// Multiplicacion de dos variables.
+
+let num1 = 2345;
+let num2 = 7323
+
+let variablesAreCool = num1 * num2 ;
 console.log(variablesAreCool);

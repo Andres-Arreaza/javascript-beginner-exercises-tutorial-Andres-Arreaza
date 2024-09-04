@@ -1,18 +1,19 @@
+/// How Much Does the Wedding Cost?
 let guests = prompt('How many people are coming to your wedding?');
 
 function getPrice(guests){
+     const newGuests = parseInt(guests);
     let cost = 0;
     // Your code here
-    if (guests<=50) {
-         cost=4000;
-    }else if (guests>50 && guests<=100){
-         cost =10000;
-    }else if(guests>100 && guests<=200){
-         cost = 15000;
-    }else if(guests>200){
-         cost = 20000;
+    if (newGuests<=50) {
+          return cost = 4000;
+    } else if(newGuests>50 && newGuests<=100){
+          return cost = 10000;
+    } else if(newGuests>100 && newGuests<=200){
+          return cost = 15000;
+    }else{
+          return cost = 20000;
     }
-    return cost;
 }
 
 let price = getPrice(guests);
